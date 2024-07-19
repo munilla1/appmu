@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <servlet>
+    <servlet-name>RegistroServlet</servlet-name>
+    <servlet-class>app.com.example.RegistroServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistroServlet</servlet-name>
+    <url-pattern>/RegistroServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ServletLogin</servlet-name>
+    <servlet-class>app.com.example.RegistroServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletLogin</servlet-name>
+    <url-pattern>/ServletLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DarDeBaja</servlet-name>
+    <servlet-class>app.com.example.DarDeBaja</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DarDeBaja</servlet-name>
+    <url-pattern>/DarDeBaja</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LogOutServlet</servlet-name>
+    <servlet-class>app.com.example.LogOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+        <servlet-name>ContadoresServlet</servlet-name>
+        <servlet-class>com.example.ContadoresServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContadoresServlet</servlet-name>
+        <url-pattern>/paginaPrincipal</url-pattern>
+    </servlet-mapping>
+</web-app>

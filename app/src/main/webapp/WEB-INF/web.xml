@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <servlet>
+    <servlet-name>RegistroServlet</servlet-name>
+    <servlet-class>app.com.example.RegistroServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistroServlet</servlet-name>
+    <url-pattern>/RegistroServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ServletLogin</servlet-name>
+    <servlet-class>app.com.example.ServletLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletLogin</servlet-name>
+    <url-pattern>/ServletLogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DarDeBaja</servlet-name>
+    <servlet-class>app.com.example.DarDeBaja</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DarDeBaja</servlet-name>
+    <url-pattern>/DarDeBaja</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LogOutServlet</servlet-name>
+    <servlet-class>app.com.example.LogOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOutServlet</servlet-name>
+    <!--<url-pattern>/accesoCorrecto</url-pattern>
+    <url-pattern>/accesoIncorrecto</url-pattern>
+    <url-pattern>/DarDeBaja</url-pattern>
+    <url-pattern>/datosGuardados</url-pattern>
+    <url-pattern>/RegistroServlet</url-pattern>
+    <url-pattern>/usuarioEliminado</url-pattern>
+    <url-pattern>/usuarioEliminadoFallido</url-pattern>
+    <url-pattern>/usuarioNoGuardado</url-pattern>-->
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

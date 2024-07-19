@@ -1,0 +1,19 @@
+/*-----------------recursos--------------------*/
+.contenedorRecursos {
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+}
+
+.contador {
+    margin: 10px; /* Espacio entre los elementos */
+    color: white;
+    margin: 20px;
+}
+
+.contador img {
+    width: 60px; /* Ajusta el tamaño máximo de las imágenes */
+    height: 40px; /* Ajusta la altura automáticamente */
+}
+
+
